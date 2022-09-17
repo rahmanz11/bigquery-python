@@ -80,10 +80,10 @@ if __name__=="__main__":
 
     dataset_id = 'sanguine-tome-362813.mydataset' # dataset_id got from create_dataset
     # Create table
-    table_id = create_table(client, dataset_id)
+    # table_id = create_table(client, dataset_id)
     # print("Table id {}".format(table_id))
 
-    # table_id = "sanguine-tome-362813.mydataset.mytable" # table_id got from create_table
+    table_id = "sanguine-tome-362813.mydataset.mytable" # table_id got from create_table
 
     # Now insert data
     insert_data(table_id, client)
