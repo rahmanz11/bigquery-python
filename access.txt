@@ -1,0 +1,2 @@
+service acc name: sampleaccount
+email: sampleaccount-303@sanguine-tome-362813.iam.gserviceaccount.com
